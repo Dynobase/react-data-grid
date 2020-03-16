@@ -54,9 +54,9 @@ export default function EditorContainer<R, SR>({
 
   function getInitialValue() {
     const value = row[column.key as keyof R];
-    if (key === 'Delete' || key === 'Backspace') {
-      return '';
-    }
+//     if (key === 'Delete' || key === 'Backspace') {
+//       return '';
+//     }
     if (key === 'Enter') {
       return value;
     }
